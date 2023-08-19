@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="stylesMobile.css">
+  <link rel="stylesheet" href="stylesDesktop.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+</head>
+<body>
+  <script src="script.js"></script>
+<div class="canvas">
+  <div class="row">
+    <div class="column textss"> 
+      <div class="left">
+       <h1 id="desc-h1">Learn to code by watching others</h1>
+
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.
+      </div> 
+
+     </div>
+
+    <div class="column formss">
+      <div class="right">
+        <button class="trial"><span class="trial-bold">Try it free 7 days </span> then $20/mo. thereafter</button>
+        <form action="" class="form">
+          <input type="text" id="firstName" class="inputFields" placeholder="First Name">
+            <div class="errorMessageText" id="fNameEr"></div>
+          <input type="text" id="lastName" class="inputFields" placeholder="Last Name">
+            <div class="errorMessageText" id="lNameEr"></div>
+          <input type="email" id="emailAddress" class="inputFields" placeholder="Email Address">
+            <div class="errorMessageText" id="mailEr"></div>
+          <input type="password" id="loginPassword" class="inputFields" placeholder="Password">
+            <div class="errorMessageText" id="passEr"></div>
+          <button class="claim" type="button" onclick="onSubmit()">Claim your free trial </button>
+          <div class="tands">By clicking the button, you are agreeing to our <a id="tands-a" href="#">Terms and Services</a></div>
+          
+        
+        </form>
+
+      </div>
+   
+
+  
+    </div>
+  </div>
+</div>
+
+
+
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/ShalomiAhavah">Jewels</a>.
+    </p>
+  </footer>
+ 
+</body>
+</html>

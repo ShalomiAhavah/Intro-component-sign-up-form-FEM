@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Raleway:wght@400;700&display=swap');
+
+
+/* All Styles in here ⬇️ */
+@media screen and (min-width: 501px) {
+
+    body {
+        background:url(images/bg-intro-desktop.png);
+        background-color: hsl(0, 100%, 74%) ;
+        margin: 0;
+        padding: 0;
+        font-family:'Raleway', sans-serif, Poppins;
+    }
+    .container {
+        display: flex; 
+        justify-content: center; 
+    }
+
+    .row {
+        height: 100vh;
+    }
+    .column {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    row::after {
+       content: ""; 
+       display: table;
+       clear: both;
+    }
+    
+    .textss {
+        padding: 0 10px 0 20px;
+        display: flex;
+        width: 50%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .formss {
+        padding: 0 20px 0 10px;
+        display: flex;
+        width: 50%;
+        height: 100%;
+        justify-content: center;
+    }
+
+    .left {
+        margin:auto 4vw auto 8vw;
+        color:#fffcff;
+    }
+        
+   .right {
+    margin:auto 4vw auto 8vw;
+   }
+
+    #desc-h1 {
+        font-weight: 700;
+    }
+
+    .trial {
+        width: 100%;
+        height: 7vh;
+        background: hsl(248, 32%, 49%);
+        border: none;
+        border-radius: 8px;
+        box-shadow:0px 5px rgba(0, 0, 0, 0.2);
+        margin: 0 0 20px 0;
+        color: #fffcff;
+    }
+    .trial-bold {
+        font-weight: bold;
+    }
+
+
+
+    form {
+        background-color: #fffcff;
+        width:100%;
+        padding: 5%;
+        border-radius: 5px;
+        box-shadow:0px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .inputFields {
+        width: 100%;
+        height: 7vh;
+        margin: 7px auto 7px auto;
+        padding-left: 15px;
+        border-radius: 5px;
+        border:1px solid #e3e3e3 ;
+        font-weight: 700;
+    }
+    .inputFields::placeholder {
+        font-weight: 600;
+    }
+
+    .inputFields:hover {
+        border:1px solid hsl(248, 69%, 69%);
+    }
+
+    .errorMessageText {
+        width: 100%;
+        text-align: right;
+        color: hsl(0, 100%, 74%);
+        font-size: 10px;
+        font-weight: 600;
+        font-style: italic;
+    }
+
+    .errorIcon {
+        background-image: url(images/icon-error.svg);
+        background-repeat: no-repeat;
+        background-position: 98% 47.5%;
+        background-size: 8%;
+    }
+
+
+
+    .claim {
+        width: 100%;
+        height: 7vh;
+        background: hsl(154, 59%, 51%);
+        border: none;
+        border-radius: 8px;
+        box-shadow:0px 2.5px #42876acc;
+        margin: 20px 0 0 0;
+        color: #fffcff;
+        font-size: 16px;
+        font-family: Poppins;
+    }
+        .claim:hover {
+            background-color: #92DFB7;
+        }
+
+    .tands {
+        width: 100%;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 5px;
+        color: #d8d8d8;
+        font-weight: bold;
+    }
+        #tands-a {
+            color:hsl(0, 100%, 74%);
+            font-weight: bold;
+        }
+
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+}
+    
+
